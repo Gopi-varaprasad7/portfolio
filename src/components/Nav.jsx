@@ -20,7 +20,7 @@ const Nav = () => {
         </button>
       </div>
       <ul className=' hidden md:flex gap-10 text-white'>
-        <li className='bg-red-900 px-4 rounded'>
+        <li className='bg-blue-800 px-4 rounded'>
           <NavLink to={'/'}>Home</NavLink>
         </li>
         <li className='bg-yellow-400 px-4 rounded'>
@@ -29,7 +29,7 @@ const Nav = () => {
         <li className='bg-green-800 px-4 rounded'>
           <NavLink to={'/services'}>Services</NavLink>
         </li>
-        <li className='bg-blue-800 px-4 rounded'>
+        <li className='bg-red-800 px-4 rounded'>
           <NavLink to={'/contact'}>Contact</NavLink>
         </li>
       </ul>
